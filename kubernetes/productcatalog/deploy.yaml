@@ -28,7 +28,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: spandanmandal/product-catalog:v1
+          image: spandanmandal/product-catalog:13625323565
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
